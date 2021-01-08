@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block trip %}
+<li>
+    <a href="/parking3"> Trip Frequency </a>
+</li>
+<li>
+    <a href="/trip1"> Proportion by member </a>
+</li>
+<li class="active">
+    <a href="/trip2"> Trip length distribution </a>
+</li>
+{% endblock %}
+
+{% block selectArea %}
+<div id="content" class="main-content">
+    <div class="layout-px-spacing">
+        <div class="row layout-top-spacing">
+            <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
+                <div class="widget widget-chart-one">
+                    <h5>Average length of trips starting from or ending at each ward by hour</h5>
+                    <div class="col-md-4">
+                        {% import 'bootstrap/wtf.html' as wtf%}
+                        {{ wtf.quick_form(form) }}
+                    </div>
+                    <div class="col-md-4">
+                        <img src="data:image/png;base64, {{ plot_url }}">
+                    </div>
+                    <div class="widget-content">
+                        <div class="tabs tab-content">
+                            <div id="content_1" class="tabcontent">
+                                <!--
+                                                                        <div id="revenueMonthly"></div>
+                                -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,8 @@
+flask
+cx_Oracle
+flask_bootstrap
+flask_wtf
+flask_bcrypt
+wtforms
+numpy
+matplotlib
