@@ -1,5 +1,9 @@
 # Municipal Micromobility Management System
 
+## Contributors to this project
+Xiang Yan, Ziying Wang, and Manzhu Wang developed the initial database management system in the COP 5725 Database Management Sytem class offered at the University of Florida. With resources available at the UF SERMOS lab, Xiang Yan, Yepeng Liu, and Xilei Zhao have been continuing developing the database by refining and adding functionalities.
+
+
 ## Background
 Micromobility services such as e-scooter and e-bike sharing have quickly become popular across cities around the world. To make micromobility better serve the residents, many city governments have passed regulations to manage the operation of micromobility services (see an example from Washington DC here https://ddot.dc.gov/page/dockless-vehicle-permits-district). Underlying these regulations lies the needs to address the following: 
         *a. Equity. To make sure that low-income people have adequate access to micromobility options, cities often require micromobility companies to place a certain proportion (e.g., 20%) of their vehicles/devices in predefined equity zones. When this policy is in place (e.g. it is implemented in Washington DC), the government need to monitor if the micromobility companies has complied with it. This calls for a need for analysts to examine the proportion of micromobility devices placed by each company in the equity zones over time. For instance, on a monthly basis, which company has the best compliance record in from February to October 2020? How does the proportion of micromobility devices being placed in equity zones change by hour of day? What are the daily number of micromobility devices being placed in each equity zone from February to October 2020? 
